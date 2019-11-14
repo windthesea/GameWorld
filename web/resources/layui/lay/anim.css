@@ -1,0 +1,464 @@
+/ **
+
+瀹樼绣
+璐ゅ绩
+
+* /
+
+h1，h2，h3 {font-size：14px;}
+::-webkit-input-placeholder {color：＃999}
+
+/ *宁冨眬* /
+.site-inline {font-size：0;}
+.site-tree，.site-content {display：inline-block; *显示：内联；*缩放：1；垂直对齐：顶部；字体大小：14像素；}
+.site-tree {width：220px; 最低高度：900像素；填充：5px 0 20px;}
+.site-content {width：899px; 最低高度：900像素；填充：20px 0 10px 20px;}
+
+/ *澶撮儴* /
+.header {height：59px; border-bottom：1px实线＃404553; 背景颜色：＃393D49;}
+.logo {position：绝对；左：0；顶部：16像素；}
+.logo img {width：82px; 高度：31像素；}
+
+.header .layui-nav {position：absolute; 正确：0；最高：0; 填充：0; 背景：无；}
+.header .layui-nav .layui-nav-item {margin：0 20px; }
+.header .layui-nav .layui-nav-item [mobile] {display：none;}
+
+.header .layui-container .logo {left：15px;}
+.header .layui-container .layui-nav {right：15px;}
+.header .layui-nav .layui-badge，
+.header .layui-nav .layui-badge-dot {right：0;}
+
+.menu {position：绝对；正确：0；最高：0; 行高：65px;}
+.menu a {display：inline-block; *显示：内联；*缩放：1；vertical-align：top;}
+.menu a {position：相对；填充：0 20px; 边距：0 20px; 颜色：＃c2c2c2; 字体大小：14像素；}
+.menu a：hover {color：#fff; 过渡：所有.5s；-webkit-transition：全部.5s}
+.menu a.this {颜色：#fff}
+.menu a.this :: after {content：''; 位置：绝对；左：0；底部：-1px；宽度：100％; 高度：5px；背景颜色：＃5FB878;}
+
+.header-index {}
+.header-index .site-banner-bg {}
+.header-index [spring] {border：无；背景颜色：＃0D1206}
+.header-index [summer] {border：无；背景颜色：＃0A0E11}
+.header-index [autumn] {border：none; 背景颜色：＃100903}
+.header-index [winter] {border：none; 背景颜色：＃110F25 / *＃06041C * /}
+
+.header-demo {height：60px; 边框底部：无；}
+.header-demo .logo {left：40px;}
+.header-demo .layui-nav {top：0;}
+.header-demo .layui-nav .layui-nav-item {margin：0 10px;}
+
+.header-demo .layui-nav .layui-this a {padding：0 30px;}
+
+
+.component {position：absolute; 宽度：160像素；左：120px；顶部：16px；}
+.component .layui-input {height：30px; padding-left：12px; 背景颜色：＃424652; 背景颜色：rgba（255,255,255，.05）; 边框：无0；颜色：#fff; 颜色：rgba（255,255,255，.5）; 字体大小：12px；}
+.component .layui-form-select .layui-edge {display：none; border-top-color：＃999;}
+.component .layui-form-select dl {top：36px; 背景颜色：rgba（255,255,255，.9）}
+.header-demo .component {left：185px;}
+
+
+/ *瀛愪晶杈 * /
+.layui-side-child {width：160px！important; 左：200px；底部：60px！重要; border-right：1像素实线#eee; 背景颜色：#fff;}
+.layui-side-child .layui-side-scroll {width：170px;}
+.layui-side-child .layui-nav {padding：10px 0; 宽度：160像素；边界半径：0; 背景：无}
+.layui-side-child .layui-nav-child {border-radius：0;}
+.layui-side-child .layui-nav .layui-nav-title a，
+.layui-side-child .layui-nav .layui-nav-title a：悬停，
+.layui-side-child .layui-nav-itemed> a {color：＃666！important;}
+.layui-side-child .layui-nav-item .layui-nav-child {margin-bottom：10px; 背景：无！重要；}
+.layui-side-child .layui-nav .layui-nav-item a {height：30px; 行高：30px; 颜色：＃666;}
+.layui-side-child .layui-nav .layui-nav-item a：hover {background：none！important;}
+.layui-side-child .layui-nav .layui-nav-child a {color：＃999！important;}
+.layui-side-child .layui-nav .layui-nav-more {display：none;}
+.layui-side-child .layui-nav-tree .layui-this，
+.layui-side-child .layui-nav-tree .layui-this> a，
+.layui-side-child .layui-nav-tree .layui-nav-child dd.layui-this，
+.layui-side-child .layui-nav-tree .layui-nav-child dd.layui-this {{background：none; 颜色：＃5FB878！important;}
+.layui-side-child .layui-nav .layui-nav-child a：悬停{color：＃009688！important}
+.layui-side-child .layui-nav-bar {background-color：＃5FB878;}
+
+
+/ *搴曢儴* /
+.footer {padding：30px 0; 行高：30px; 文本对齐：居中；颜色：＃666; 字体粗细：300；}
+body .layui-layout-admin .footer-demo {height：50px; 行高：50px；填充：5px 0;}
+.footer a {padding：0 5px;}
+.site-union {color：＃999;}
+.site-union> * {display：inline-block; 垂直对齐：中间；}
+.site-union a [sponsor] img {width：80px;}
+.site-union span {position：relative; 顶部：5像素；}
+.site-union span a {padding：0; 显示：内联；颜色：＃999;}
+.site-union span a：hover {text-decoration：underline;}
+.site-union .site-union-desc {display：block; 底边距：10px；}
+
+.footer-demo p，
+.footer-demo .site-union，
+.footer-demo .site-union p {display：inline-block; 垂直对齐：中间；padding-right：10像素；}
+.footer-demo .site-union {position：relative; 顶部：-5px；}
+.footer-演示.site工会.site工会-降序{边距：0; padding-right：0；}
+.footer-演示.site工会一个[赞助] IMG {位置：相对; 顶部：3像素；}
+
+/ *棣栭〉横幅閮ㄥ垎* /
+.site-banner {position：相对；高度：600像素；文本对齐：居中；溢出：隐藏；背景颜色：＃393D49;}
+.site-banner-bg
+，.site-banner-main {position：absolute; 左：0；最高：0; 宽度：100％; 高度：100％；}
+.site-banner-bg {background-position：center 0;}
+
+
+.site-zfj {padding-top：25px; 高度：220像素；}
+.site-zfj i {position：absolute; 左：50％；顶部：50px；宽度：200像素；高度：200px；左边距：-100px; 字体大小：180px；颜色：＃c2c2c2;}
+
+@keyframes site-zfj {
+0％{不透明度：1；转换：translate3d（0，0，0）旋转（0deg）标度（1）;}
+10％{不透明度：0.8；变换：translate3d（-100px，0像素，0）旋转（10deg）规模（0.7）;}
+35％{不透明度：0.6；变换：translate3d（100像素，0像素，0）旋转（30度）比例（0.4）;}
+50％{不透明度：0.4；转换：translate3d（0，0，0）旋转（360deg）比例尺（0）;}
+80％{不透明度：0.2；转换：translate3d（0，0，0）旋转（720deg）标度（1）;}
+90％{不透明度：0.1；转换：translate3d（0，0，0）旋转（3600deg）比例尺（6）;}
+100％{不透明度：1；转换：translate3d（0，0，0）旋转（3600deg）比例尺（1）;}
+}
+
+@keyframes site-desc {
+0％{transform：scale（1.1）;}
+100％{transform：scale（1）;}
+}
+
+.site-zfj-anim i {-webkit-animation-name：site-zfj; 动画名称：site-zfj；-webkit-animation-duration：5秒；动画时间：5秒；-webkit-animation-timing-function：线性；动画定时功能：线性；}
+
+
+/ *鎻忚堪瀛椾綋* /
+@ font-face {font-family：'webfont-desc';
+      src：url（'// at.alicdn.com/t/webfont_eovt4pxxy5.eot'）; / * IE9 * /
+  src：url（'// at.alicdn.com/t/webfont_eovt4pxxy5.eot?#iefix'）format（'embedded-opentype'），/ * IE6-IE8 * /
+  url（'// at.alicdn.com/t/webfont_eovt4pxxy5.woff'）format（'woff'），/ * chrome銆乫irefox * /
+  url（'// at.alicdn.com/t/webfont_eovt4pxxy5.ttf'）format（'truetype'），/ * chrome銆乫irefox銆乷pera銆丼afari，Android，iOS 4.2 + * /
+  url（'// at.alicdn.com/t/webfont_eovt4pxxy5.svg#镐濇簮榛戜綋-鏋佺粏'）format（'svg'）; / * iOS 4.1- * /
+  }
+.web-font-desc {
+    font-family：“ webfont-desc”！important;
+    font-size：16px; font-style：normal;
+    -webkit-font-smoothing：抗锯齿；
+            -moz-osx-font-smoothing：灰度；
+}
+
+
+.site-desc {position：相对；高度：70px；页边距：20px；}
+.site-desc .web-font-desc {color：#fff; 颜色：rgba（255,255,255，.8）; 字体大小：61像素；}
+
+.site-desc-anim {-webkit-animation-name：site-desc; 动画名称：site-desc;}
+.site-desc cite {position：absolute; 底部：-40px；左：0；宽度：100％; 颜色：＃c2c2c2; 字体样式：正常；}
+
+.site-download {margin-top：80px; 字体大小：0;}
+.site-download a {position：相对；填充：0 55px 0 95px; 高度：65像素；行高：65px；边框：1px实心＃c2c2c2; border-color：rgba（255,255,255，.2）; font-size：24px; 颜色：#ccc; 过渡：所有.5s；-webkit-transition：所有.5s;}
+.site-download a：hover {border-color：rgba（255,255,255，.3）; 颜色：#fff; 背景颜色：rgba（255,255,255，.05）; border-radius：30px;}
+.site-download cite {position：absolute; 左：55px；顶部：2px；字体大小：30像素；}
+.site-version {position：相对；边距顶部：15像素; 颜色：#ccc; 字体大小：12px；}
+.site-version span {padding：0 3px;}
+.site-version * {font-style：normal;}
+.site-version a {color：＃e2e2e2; 文字修饰：下划线；}
+
+.site-banner-other {position：绝对；左：0；底部：35px；宽度：100％; 文本对齐：居中；字体大小：0;}
+.site-banner-other iframe {border：none;}
+.site-banner-other a {display：inline-block; 垂直对齐：中间；高度：28px；行高：28px；边距：0 6px; 填充：0 0px; border-radius：2px; 颜色：＃c2c2c2; 颜色：rgba（255,255,255，.8）; 边框：1px实心＃c2c2c2; border-color：rgba（255,255,255，.2）; font-size：14px; 过渡：所有.5s；-webkit-transition：所有.5s;}
+.site-banner-other a：hover {color：#fff; 背景颜色：rgba（255,255,255，.1）;}
+
+
+.site-idea {margin：50px 0; 字号：0；文本对齐：居中；字体粗细：300；}
+.site-想法利{显示：内联块; 垂直对齐：顶部；*显示：内联；*缩放：1；font-size：14px; }
+.site-idea li {width：298px; 高度：150px；填充：30px; 行高：24px；左边距：30px; 边框：1px实线＃d2d2d2; 文字对齐：左；}
+.site-idea li：first-child {margin-left：0}
+.site-idea .layui-field-title {border-color：＃d2d2d2}
+.site-idea .layui-field-title图例{margin：0 20px 20px 0; 填充：0 20px; 文字对齐：居中；}
+
+/ *璧炲姪鍟* /
+.site-sponsor-home {margin-top：40px; 文字对齐：居中；}
+.site-sponsor-home .layui-btn {position：相对；宽度：233px；高度：65像素；行高：65px；背景：无；边框颜色：＃212121; 字号：26px；border-radius：6px; / * padding-left：55px； * /}
+.site-sponsor-home .layui-btn：hover {background：＃4A4855; 颜色：＃BAB8C3;}
+.site-sponsor-home .layui-btn：之前{/ *位置：绝对；左：15px；顶部：15px；内容：”; 宽度：30px；高度：30px；背景：网址（http://cdn.layui.com/upload/2018_1/168_1514869467160_26113.png）中心; 背景重复：不重复；背景大小：包含； * /}
+.site-sponsor-home p {position：relative; padding-top：15像素；font-size：22px; 颜色：＃212121;}
+.site-sponsor-home p：之前{content：''; 职位：相对 顶部：-2px；显示：inline-block; 垂直对齐：中间；宽度：30px；高度：30px；右边距：10px; 背景：网址（http://cdn.layui.com/upload/2018_1/168_1514869467160_26113.png）中心; 背景重复：不重复；背景大小：包含；}
+@media屏幕和（最大宽度：750像素）{
+    .site-sponsor-home .layui-btn {width：180px; 高度：45像素；行高：45px；字体大小：20像素；}
+    .site-sponsor-home p {font-size：16px;}
+    .site-sponsor-home p：before {width：20px; 高度：20像素；}
+}
+
+
+
+/ *呭姪* /
+.site-提示{边距：10px的; 填充：15px; 行高：22px；左边框：5px的固体＃0078AD; 背景颜色：＃f2f2f2;}
+体.site-提示p {余量：0;}
+正文.layui-layer-notice .layui-layer-content {padding：20px; 行高：26px；背景颜色：＃393D49; 颜色：#fff; 字体粗细：300；}
+.layui-layer-notice .layui-text {颜色：＃f8f8f8;}
+.layui-layer-notice .layui-text a {color：＃009688;}
+
+/ *鐩綍* /
+.site-dir {display：none;}
+.site-dir li {line-height：26px; 左边距：20px; 溢出：可见；list-style-type：光盘；}
+.site-dir li a {display：block;}
+.site-dir li a：active {color：＃01AAED;}
+.site-dir li a.layui-this {color：＃01AAED;}
+body .layui-layer-dir {box-shadow：none; 边框：1px实心＃d2d2d2;}
+body .layui-layer-dir .layui-layer-content {padding：10px;}
+.site-dir a em {padding-left：5px; font-size：12px; 颜色：＃c2c2c2; 字体样式：正常；}
+
+/ *鏂囨。* /
+.site-tree {border-right：1px solid #eee; }
+.site-tree .layui-tree {line-height：32px;}
+.site-tree .layui-tree li i {position：relative; font-size：22px; 颜色：＃000}
+.site-tree .layui-tree li {引用：0 8px;}
+.site-tree .layui-tree .site-tree-noicon引用{padding-left：15px;}
+.site-tree .layui-tree li em {font-size：12px; 颜色：#bbb; padding-right：5px；字体样式：正常；}
+.site-tree .layui-tree li h2 {line-height：36px; 左边框：5px实心＃009E94；边距：15px 0 5px; 填充：0 0px; 背景颜色：＃f2f2f2;}
+.site-tree .layui-tree li ul {margin-left：27px; 行高：28px;}
+.site-tree .layui-tree li ul a，
+.site-tree .layui-tree li ul ai {color：＃777;}
+.site-tree .layui-tree li ul a：hover {color：＃333;}
+.site-tree .layui-tree li ul li {margin-left：25px; 溢出：可见；list-style-type：光盘；/ * list-style-position：内部； * /}
+.site-tree .layui-tree li ul li引用，
+.site-tree .layui-tree .site-tree-noicon ul li cite {padding-left：0;}
+
+.site-tree .layui-tree .layui-this {{color：＃01AAED;}
+.site-tree .layui-tree .layui-this .layui-icon {color：＃01AAED;}
+
+.site-fix .site-tree {position：fixed; 最高：0; 底部：0 z-index：666；最小高度：0；溢出：自动；背景颜色：#fff;}
+.site-fix .site-content {margin-left：220px;}
+.site-fix-footer .site-tree {/ * margin-bottom：120px; * /}
+
+
+.site-title {margin：30px 0 20px;}
+.site-title fieldset {border：none; 填充：0; border-top：1像素实线#eee;}
+.site-title字段集图例{margin-left：20px; 填充：0 0px; font-size：22px; 字体粗细：300；}
+
+.site-text a {颜色：＃01AAED;}
+.site-h1 {margin-bottom：20px; 行高：60px; padding-bottom：10px; 颜色：＃393D49; border-bottom：1px实心#eee; 字体大小：28px；字体粗细：300；}
+.site-h1 .layui-icon {position：相对; 顶部：5px；字体大小：35px；右边距：10px；}
+.site-text {position：relative;}
+.site-text p {margin-bottom：10px; line-height：22px;}
+.site-text em {padding：0 3px; 字体粗细：500；字体样式：斜体；颜色：＃666;}
+.site-text code {margin：0 5px; 填充：3px 10px; 边框：1px实线＃e2e2e2; 背景颜色：#fbfbfb; 颜色：＃666; border-radius：2px;}
+
+
+.site-table {width：100％; 边距：10px 0;}
+.site-table thead {background-color：＃f2f2f2; }
+.site-table th，
+.site-table td {padding：6px 15px; 最低高度：20px；行高：20px；border：1px实心#ddd; font-size：14px; 字体粗细：400；}
+.site-table tr：nth-​​child（even）{background：#fbfbfb;}
+
+.site-block {padding：20px; 边框：1px实心#eee;}
+.site-block .layui-form {margin-right：200px;}
+
+/ *旋存柊镞ュ织* /
+.site-changelog .layui-timeline-title h2 {display：inline-block;}
+.site-changelog .layui-timeline-title .layui-badge-rim {top：-2px; 左：10px；}
+
+/ *棰滆壊* /
+.site-doc-color {font-size：0;}
+.site-doc-color li {display：inline-block; 垂直对齐：中间；宽度：180像素；左边距：20px; 底边距：20px; 填充：20px 10px; 颜色：#fff; 文本对齐：居中；border-radius：2px; 行高：22px；字体大小：14像素；}
+.site-doc-color li p [tip] {opacity：0.8; 字体大小：12px；}
+
+.site-doc-necolor li {width：108px; 边距顶部：15像素; 左边距：0；边界半径：0；}
+
+.site-doc-bgcolor li {padding：10px;}
+
+/ *瀹牸* /
+.site-doc-icon {margin-bottom：50px; 字体大小：0;}
+.site-doc-icon li {display：inline-block; 垂直对齐：中间；宽度：127像素；高度：105像素；行高：25px；填充：20px 0; 右边距：-1px; 底边距：-1px; 边框：1px实线＃e2e2e2; font-size：14px; 文本对齐：居中；颜色：＃666; 过渡：所有.3s；-webkit-transition：所有.3s;}
+.site-doc-anim li {height：auto;}
+.site-doc-icon li .layui-icon {display：inline-block; 字体大小：36像素；}
+
+.site-doc-icon li .doc-icon-name，
+.site-doc-icon li .doc-icon-code {颜色：＃c2c2c2;}
+.site-doc-icon li .doc-icon-fontclass {高度：40像素；行高：20px；填充：0 5px; font-size：13px; 颜色：＃333; }
+.site-doc-icon li：hover {background-color：＃f2f2f2; 颜色：＃000;}
+
+/ *镙呮牸绀轰緥* /
+.grid-demo {padding：10px; 行高：50px；文本对齐：居中；背景颜色：＃79C48C；颜色：#fff;}
+.grid-demo-bg1 {background-color：＃63BA79;}
+.grid-demo-bg2 {background-color：＃49A761;}
+.grid-demo-bg3 {background-color：＃38814A;}
+
+
+/ *婕旗ず* /
+body .layui-layout-admin .site-demo {bottom：60px; 填充：0；}
+正文.site-demo-nav .layui-nav-item {line-height：40px}
+.layui-nav-item .layui-icon {位置：相对；字体大小：20像素；}
+.layui-nav-item a cite {padding：0 10px;}
+.site-demo .layui-main {margin：15px; 行高：22px；}
+.site-demo-editor {position：absolute; 最高：0; 底部：0 左：0；宽度：50％; }
+.site-demo-area {position：absolute; 最高：0; 底部：0 宽度：100％；}
+.site-demo-editor textarea {position：absolute; 宽度：100％; 高度：100％; 填充：10px; 边界：无；调整大小：无；背景颜色：＃F7FBFF; 背景颜色：＃13151A; 颜色：＃999; 字体家族：Courier New；font-size：12px; -webkit-box-sizing：border-box！important; -moz-box-sizing：边界框！重要；框大小：border-box！important;}
+.site-demo-btn {position：绝对；底部：15px的; 右：20px；}
+.site-demo-zanzhu {position：绝对；底部：0 左：0；宽度：100％; 高度：90px；文本对齐：居中；背景颜色：＃e2e2e2; 溢出：隐藏；}
+.site-demo-zanzhu> * {位置：相对；z-index：1；}
+.site-demo-zanzhu：before {content：“”; 位置：绝对；z索引：0；最高：50％；左：50％；宽度：120像素；边距：-10px 0px 0px -60px; 文本对齐：居中；颜色：rgb（170，170，170）; font-size：18px; 字体粗细：300；}
+
+.site-demo-result {position：absolute; 正确：0；最高：0; 底部：0 宽度：50％；}
+.site-demo-result iframe {position：absolute; 宽度：100％; 高度：100％；}
+
+.site-demo-button {margin-bottom：30px;}
+.site-demo-button div {margin：20px 30px 10px;}
+.site-demo-button .layui-btn + .layui-btn {margin-left：0;}
+.site-demo-button .layui-btn {margin：0 7px 10px 0; }
+
+.site-demo-text a {颜色：＃01AAED;}
+
+.site-demo-laytpl {text-align：center;}
+.site-demo-laytpl文本区域，
+.site-demo-laytpl div span {width：40％; 填充：15px; 边距：0 15像素；}
+.site-demo-laytpl textarea {高度：300像素；边界：无；背景颜色：＃3F3F3F; 颜色：＃E3CEAB；字体家族：Courier New；调整大小：无；}
+.site-demo-laytpl div span {display：inline-block; 文本对齐：居中；背景：＃101010；颜色：#fff;}
+.site-demo-tplres {margin：10px 0; 文字对齐：居中}
+.site-demo-tplres .site-demo-tplh2，
+.site-demo-tplres .site-demo-tplview {display：inline-block; 宽度：50％；}
+.site-demo-tplres h2 {padding：15px; 背景：＃e2e2e2;}
+.site-demo-tplres h3 {font-weight：700;}
+.site-demo-tplres div {padding：14px; 边框：1px实线＃e2e2e2; 文字对齐：左；}
+
+.site-demo-upload，
+.site-demo-upload img {width：200px; 高度：200px；边界半径：100％；}
+.site-demo-upload {位置：相对；背景：＃e2e2e2;}
+.site-demo-upload .site-demo-upbar {位置：绝对；最高：50％；左：50％；边距：-18px 0 0 -56px;}
+.site-demo-upload .layui-upload-button {background-color：rgba（0,0,0，.2）; 颜色：rgba（255,255,255,1）;}
+
+.site-demo-util {position：相对；宽度：300像素；}
+.site-demo-util img {width：300px; 边界半径：100％；}
+.site-demo-util span {position：absolute; 左：0；最高：0; 宽度：100％; 高度：100％; 背景：＃333；光标：指针；}
+@ -webkit-keyframes demo-fengjie {
+0％{-webkit-filter：blur（0）; 不透明度：1；背景：#fff; 高度：300像素；边界半径：100％；}
+80％{-webkit-filter：blur（50px）; 透明度：0.95;}
+100％{-webkit-filter：blur（20px）; 不透明度：0；背景：#fff;}
+}
+@keyframes demo-fengjie {
+0％{filter：blur（0）; 不透明度：1；背景：#fff; 高度：300像素；边界半径：100％；}
+80％{filter：blur（50px）; 透明度：0.95;}
+100％{filter：blur（20px）; 不透明度：0；背景：#fff;}
+}
+.site-demo-fengjie {-webkit-animation-name：demo-fengjie; 动画名称：demo-fengjie；-webkit-animation-duration：5秒；动画时间：5秒；}
+
+.layui-layout-admin .site-demo-body {top：106px;}
+.site-demo-title {位置：固定；左：200px；正确：0；顶部：65像素；}
+.site-demo-code {position：absolute; 左：0；最高：0; 宽度：100％; 高度：100％; 边界：无；填充：10px; 调整大小：无；font-size：12px; 背景颜色：＃F7FBFF; 颜色：＃881280; 字体家族：Courier New;}
+
+.site-demo-overflow {溢出：隐藏；}
+
+/ *鍏跺畠* /
+＃trans-tooltip，
+＃tip-arrow-bottom，
+＃tip-arrow-top {display：none！important;}
+
+
+/ *镫珛缁勪欢涓 涓婚〉 * /
+.alone {text-align：center; 背景颜色：＃009688；颜色：#fff; 字体粗细：300；过渡：所有.3s；-webkit-transition：所有.3s;}
+.alone：hover {background-color：＃5FB878;}
+.alone a {display：block; 填充：50px 20px; 颜色：#fff; 字体大小：30像素；}
+.alone a cite {display：block; padding-top：10像素；字体大小：14像素；}
+
+
+.alone-banner {高度：190px; 文本对齐：居中；字体粗细：300；背景颜色：＃009688；颜色：#fff;}
+.alone横幅H1 {填充顶：60像素; 行高：32px；font-size：30px; 字体粗细：300；}
+.alone-banner p {padding-top：20px; 颜色：＃e2e2e2; 颜色：rgba（255,255,255，.8）;}
+
+.alone-nav .layui-tab-title li {margin-right：30px; 填充：0; 颜色：＃666;}
+.alone-nav .layui-tab-title li a {padding：0 20px;}
+
+.alone-download {边距：30px 0;}
+.alone-download .layui-btn {margin-right：10px;}
+.alone-download span {display：inline-block; 行高：44px；padding-right：20像素；}
+.alone-download span em {color：＃999;}
+
+.alone-title {margin-top：20px;}
+
+.alone-download-btn {text-align：center; 边距顶部：50像素; 字体大小：0;}
+.alone-download-btn .layui-btn {位置：相对；宽度：206像素；高度：60px；行高：60px; 字号：26px；字体粗细：300；}
+.alone-download-btn .layui-btn + .layui-btn {利润：0;}
+.alone-download-btn .alone-download-right {margin-left：20px！important; 边框颜色：＃009688; 背景：无；颜色：＃009688;}
+.alone-download-btn .layui-btn img {位置：相对；顶部：-3px；宽度：118像素；}
+
+
+
+/ *阃傞历澶氲澶 * /
+@media屏幕和（最大宽度：750像素）{
+    .layui-main {width：auto; 边距：0 10px；}
+    。商标，
+    .header-demo .logo {left：10px;}
+    .component {display：none}
+
+    .header .layui-nav-child {left：auto; 正确：0;}
+    .site-demo-overflow {overflow：auto;}
+
+    .site-nav-layim {display：none！important;}
+    .header .layui-nav .layui-nav-item {margin：0;}
+    .header .layui-nav .layui-nav-item a {padding：0 20px;}
+    .header .layui-nav .layui-nav-item [pc] {display：none;}
+    .header .layui-nav .layui-nav-item [mobile] {display：inline-block;}
+    .site-banner {height：300px;}
+    .site-banner-bg {background-size：cover;}
+    .site-zfj {height：100px; padding-top：5像素；}
+    .site-zfj i {top：10px; 宽度：100px；高度：100px；左边距：-50px; 字体大小：100像素；}
+    .site-desc {background-size：70％; 边距：0；}
+    .site-desc .web-font-desc {padding-top：20px; 字体大小：30像素；}
+    .site-desc cite {display：none;}
+    .site-download {margin-top：0; }
+    .site-download a {height：40px; 行高：40像素; 填充：0 25px 0 60px; border-radius：30px; 颜色：#fff; 字体大小：16像素；}
+    .site-download cite {left：20px;}
+    .site-banner-other {底部：10像素；}
+
+    .site-idea {margin：20px 0;}
+    .site-idea li {margin：0 0 20px 0; 宽度：100％; 高度：自动；-webkit-box-sizing：border-box！important; -moz-box-sizing：边界框！重要；框大小：border-box！important;}
+    .site-hengfu img {最大宽度：100％}
+
+    .site-block .layui-form {margin-right：0;}
+
+    .layui-layer-dir {display：none;}
+    .site-tree {position：fixed; 最高：0; 底部：0 最小高度：0；溢出：自动；z索引：1000；左：-260px; 背景颜色：#fff; 过渡：所有.3s；-webkit-transition：所有.3s;}
+    .site-content {width：100％; 填充：0; 溢出：自动；}
+    .site-content img {max-width：100％;}
+    .site-tree-mobile {display：block！important; 位置是：固定; z-index：100000；底部：15px的; 左：15px；宽度：50像素；高度：50px；行高：50px；border-radius：2px; 文本对齐：居中；背景颜色：rgba（0,0,0，.7）; 颜色：#fff;}
+    .site-home .site-tree-mobile {显示：无！重要；}
+    .site-mobile .site-tree-mobile {display：none！important;}
+    .site-mobile .site-tree {left：0;}
+    .site移动.site移动荫{含量：“”; 位置是：固定; 最高：0; 底部：0 左：0；正确：0；背景颜色：rgba（0,0,0，.8）; z-index：999；}
+    .site-tree-mobile i{font-size: 20px;}
+    .layui-code-view{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+    .layui-layout-admin .layui-side{position: fixed; top: 0; left: -260px; transition: all .3s; -webkit-transition: all .3s; z-index: 10000;}
+    .layui-body{position: static; bottom: 0; left: 0;}
+    .site-mobile .layui-side{left: 0;}
+    .site-mobile .layui-side-child{top: 50%; left: 200px; height: 300px; margin-top: -100px;}
+
+    body .layui-layout-admin .footer-demo{position: static; height: auto; padding: 15px 0; line-height: 30px;}
+    .footer-demo p,
+    .footer-demo .site-union{height: auto; padding-right: 0;}
+    .footer-demo .site-union{top: 0;}
+    .footer-demo .site-union span{top: ;}
+
+    .site-demo-area,
+    .site-demo-editor,
+    .site-demo-result,
+    .site-demo-editor textarea,
+    .site-demo-result iframe{position: static; width: 100%;}
+    .site-demo-editor textarea{height: 350px;}
+    .site-demo-zanzhu{display: none;}
+    .site-demo-btn{bottom: auto; top: 370px;}
+    .site-demo-result iframe{height: 500px;}
+
+    .site-demo-laytpl textarea, .site-demo-laytpl div span{margin: 0;}
+    .site-demo-tplres .site-demo-tplh2, .site-demo-tplres .site-demo-tplview{width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+    .site-demo-title{position: static; left: 0;}
+    body .layui-layout-admin .site-demo{position: static;}
+    .site-demo-code{position: static; height: 350px;}
+}
+
+
+
+@-webkit-keyframes site-anim-closeup{ /* 鐗瑰啓 */
+    from {-webkit-transform: translate3d(0, 0, 0) scale(1);  opacity: 1;}
+    to { -webkit-transform: translate3d(0, 400px, 0) scale(2);  opacity: 0.5;}
+}
+@keyframes site-anim-closeup{
+    from {transform: translate3d(0, 0, 0) scale(1); opacity: 1;}
+    to {transform: translate3d(0, 400px, 0) scale(2); opacity: 0.5;}
+}
+.site-out-up{-webkit-animation-duration: 3s; animation-duration: 3s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: site-anim-closeup; animation-name: site-anim-closeup; overflow: hidden;}
+

@@ -1,0 +1,14 @@
+h1{
+    margin: 30px;
+    font-size: 24px;
+}
+.box{
+    margin: 30px;
+    width: 300px;
+    display: inline-block
+}
+.footerbox{
+    width: 1130px;
+    height: 400px;
+    margin: auto
+}

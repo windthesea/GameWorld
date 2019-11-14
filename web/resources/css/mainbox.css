@@ -1,0 +1,11 @@
+.maindiv{
+    box-shadow:3px 3px 50px  #c8c8c8;
+    width: 1350px;
+    margin:auto;
+    background-color:white;
+    border-radius:0px 0px 20px 20px ;
+    padding: 10px;
+}
+body{
+    background-color:#F2F2F2;
+}
